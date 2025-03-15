@@ -7,5 +7,17 @@
 </head>
 <body>
     <h1>アカウント登録</h1>
+    <form action="/auth/register" method="post">
+        <div>
+            <input name="username" type="text" placeholder="ニックネーム" required>
+        </div>
+        <div>
+            <input name="email" type="email" placeholder="メールアドレス" required>
+        </div>
+        <div>
+            <input name="password" type="password" placeholder="パスワード" required>
+        </div>
+        <button type="submit">登録</button>
+    </form>
 </body>
 </html>
